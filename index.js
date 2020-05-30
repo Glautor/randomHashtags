@@ -82,8 +82,8 @@ function chooseHashtags(array) {
 		newArray = removeElementFromArray(array, item);
 		choosenHashtagsArray.push(item);
 	}
-
+	document.getElementById("hashtags").innerHTML += choosenHashtagsArray.join(' ')
 	return choosenHashtagsArray
 }
 
-console.log(chooseHashtags(hashtags).join(' '))
+chooseHashtags(hashtags).join(' ')
