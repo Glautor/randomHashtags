@@ -36,7 +36,22 @@ const hashtags = [
 	"#deliverydecomida",
 	"#fooddelivery",
 	"#pizza",
-	"#fiqueemcasa"
+	"#fiqueemcasa",
+	"#almoço",
+	"#janta",
+	"#fome",
+	"#pedidos",
+	"#prontaentrega",
+	"#agendamentos",
+	"#fruta",
+	"#gastronomia",
+	"#chef",
+	"#foodlover",
+	"#familia",
+	"#carne",
+	"#lanche",
+	"#comidadeverdade",
+	"#culinaria"
 ]
 
 function randomElements(items) {
@@ -49,8 +64,6 @@ function getRandomIntInclusive(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-getRandomIntInclusive(1, 10)
 
 function removeElementFromArray(array, item) {
 	const index = array.indexOf(item);
